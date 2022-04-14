@@ -9,14 +9,14 @@
     <!-- Bootstrap CSS link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Scoop Scoop Hooray</a>
+                <a class="navbar-brand">Scoop Scoop Hooray</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,11 @@
                                 Products
                             </a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="PlaceOrder.html">
+                                Order!
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="ContactPage.html">
                                 Contact Us
@@ -58,14 +62,20 @@
     <h1> Welcome to Scoop Scoop Hooray!</h1>
     <h3><i>Satisfaction with every bite!</i></h3>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -77,14 +87,21 @@
             <div class="carousel-item">
                 <img src="assets/images/ice_cream.jpg" class="d-block w-100" alt="ice cream freezer">
             </div>
+            <div class="carousel-item">
+                <img src="assets/images/ice_cream_cones.jpg" class="d-block w-100" alt="ice cream cone">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/sprinkles.jpg" class="d-block w-100" alt="rainbow sprinkles">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/sundae.jpg" class="d-block w-100" alt="sundae">
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
